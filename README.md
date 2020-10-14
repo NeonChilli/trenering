@@ -1,0 +1,2 @@
+# trenering
+mégegypróba
