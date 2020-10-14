@@ -1,0 +1,172 @@
+
+/*===footer====*/
+
+* {
+  box-sizing: border-box;
+}
+footer {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  display: table;
+  width: 100vw;
+  height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+footer small {
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+strong {
+  font-weight: 700;
+}
+
+
+/*===Buttoms===*/
+
+.button {
+	display: inline-block;
+	border: 1px solid #8c8e9b;
+	color: #8c8e9b;
+	border-radius: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 5px;
+	width: 100px;
+	font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+
+.button:hover {
+	border: 1px solid #b60e63;
+}
+
+
+/*===NavBar===*/
+
+/*===Általános===*/
+
+* {
+  box-sizing: border-box;
+}
+
+nav ul {
+  
+  text-align: center;
+}
+
+nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C74F78;
+  display: block;
+}
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+nav a.active {
+  background-color: #c74f78;
+  color: #eee;
+}
+@media (min-width: 600px) {
+
+  nav li {
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+
+}
+
+/*======felsőGombok=====*/
+
+h1,
+h2 {
+  font-family: 'Libre Baskerville', Arial, sans-serif;
+}
+a {
+	color: #e5127d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b60e63;
+}
+
+/*===Another typography===*/
+
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: chartreuse
+  
+}
+
+p {
+  font-size: 1.6rem;
+  color: #e5127d;
+  text-align: center;
+ }
+
+
+.main-header p{
+  font-size: 1.5rem;
+  letter-spacing: 0.125rem;
+  color: #8c8e9b;
+}
+
+body{
+  background: url(Assets/h%C3%A1tt%C3%A9r.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+    
+}
+
+h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #b60e63
+  
+}
+
+.trainers {
+  
+  text-align: center;
+  
+      
+}
+
+img {
+  border-radius: 50%;
+  
+}
